@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoData</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!---------------- BARRA DE NAVEGACION ------------------->
+    <header>
+        <nav class="navbar">
+            <div class="contenedor">
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Precios</a>
+                <a href="#">Compañia</a>
+                <a href="#">Contactanos</a>
+            </div>
+        </nav>
+        <!-- Elemento hermano para darle desplazamiento al header-->
+        <div class="contenedor-imagen">
+            <a href="#blog">
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80" alt="">
+            </a>
+        </div>
+    </header>
+    <!------------ BARRA DE NAVEGACION(FIN) ------------->
+    <main id="blog">
+    <!-- Este "contenedor" solo se coloca para centrar los elementos en pantalla
+         y dentro del "aside" tengo los temarios -->
+        <div class="contenedor">
+            <aside>
+                <h3 class="titulo">Temas</h3>
+                <nav class="indice">
+                    <a href="#articulo-1">Articulo #1</a>
+                    <a href="#articulo-2">Articulo #2</a>
+                    <a href="#articulo-3">Articulo #3</a>
+                    <a href="#articulo-4">Articulo #4</a>
+                </nav>
+            </aside>
+            <div class="contenido">
+                <div class="post">
+                    <h1 class="titulo" id="articulo-1">Articulo #1</h1>
+                    <p class="fecha">Publicado el 30 de junio de 2022</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aliquam velit eligendi nobis culpa ducimus saepe sint, cumque ipsum rem atque quaerat facere sit temporibus inventore quod, error libero obcaecati.
+                    </p>
+                </div>
+                <div class="post">
+                    <h1 class="titulo" id="articulo-2">Articulo #2</h1>
+                    <p class="fecha">Publicad el 1 de julio de 2022</p>
+                    <p> 
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nobis quae nesciunt placeat! Aperiam, recusandae. Ratione nihil tenetur quia reprehenderit similique officia optio illo expedita. Velit itaque fugiat provident maxime.
+                    </p>
+                    <div class="post">
+                    <h1 class="titulo" id="articulo-3">Articulo #3</h1>
+                    <p class="fecha">Publicado el 2 de julio de 2022</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aliquam velit eligendi nobis culpa ducimus saepe sint, cumque ipsum rem atque quaerat facere sit temporibus inventore quod, error libero obcaecati.
+                    </p>
+                </div>
+                <div class="post">
+                    <h1 class="titulo" id="articulo-4">Articulo #4</h1>
+                    <p class="fecha">Publicad el 3 de julio de 2022</p>
+                    <p> 
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nobis quae nesciunt placeat! Aperiam, recusandae. Ratione nihil tenetur quia reprehenderit similique officia optio illo expedita. Velit itaque fugiat provident maxime.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- el div correspondiente al contenedor imagen se puede poner arriba o abajo del navbar del footer -->
+        <div class="contenedor-imagen">
+            <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="">
+        </div>
+        <nav class="navbar">
+            <div class="contenedor">
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Precios</a>
+                <a href="#">Compañia</a>
+                <a href="#">Soporte</a>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
